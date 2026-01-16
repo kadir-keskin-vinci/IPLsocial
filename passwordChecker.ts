@@ -1,6 +1,8 @@
 export class PasswordChecker{
     verif(input:string): boolean{
-        if(input.length>= 8 ) return true;
-        return false;
+        if(input.length < 8) return false;
+
+        return true;
+       
     }
 }
