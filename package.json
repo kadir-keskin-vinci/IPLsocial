@@ -16,6 +16,9 @@
     "lint": "eslint \"src/**/*.js\"",
     "jest": "^30.2.0",
     "prettier": "prettier -c \"src/**/*.js\"",
+
+
+    
     "ts-jest": "^29.4.6",
     "typescript": "^5.9.3"
   }
