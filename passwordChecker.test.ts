@@ -20,6 +20,13 @@ describe("PasswordCheck", () =>{
             const actual = passwordChecker.verif("loooooooooooooooooo@")
             expect(actual).toBe(false);
         })
+
+        it("should returns false when given contains ipl", () =>{
+            const actual = passwordChecker.verif("loooIPLooo1o@")
+            expect(actual).toBe(false);
+        })
+
+        
       
     })
 })
