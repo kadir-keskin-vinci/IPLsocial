@@ -26,7 +26,10 @@ describe("PasswordCheck", () =>{
             expect(actual).toBe(false);
         })
 
-        
+        it("should return true when given is valid password", () =>{
+            const actual = passwordChecker.verif("keskinkadir62@gmail.com")
+            expect(actual).toBe(true);
+        })
       
     })
 })
