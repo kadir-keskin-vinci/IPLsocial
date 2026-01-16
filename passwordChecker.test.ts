@@ -15,6 +15,11 @@ describe("PasswordCheck", () =>{
             const actual = passwordChecker.verif("loloooooooo");
             expect(actual).toBe(false);
         })
+
+        it("should return false when given don't contains number", () =>{
+            const actual = passwordChecker.verif("loooooooooooooooooo@")
+            expect(actual).toBe(false);
+        })
       
     })
 })
