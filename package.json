@@ -13,9 +13,9 @@
   "description": "",
   "devDependencies": {
     "@types/jest": "^30.0.0",
-    "eslint": "^9.39.2",
+    "lint": "eslint \"src/**/*.js\"",
     "jest": "^30.2.0",
-    "prettier": "^3.8.0",
+    "prettier": "prettier -c \"src/**/*.js\"",
     "ts-jest": "^29.4.6",
     "typescript": "^5.9.3"
   }
